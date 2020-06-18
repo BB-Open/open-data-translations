@@ -1,5 +1,6 @@
 # open-data-translations
-German Translations for OpenData-Content
+**German Translations for OpenData-Content**
+According to https://www.dcat-ap.de/def/
 
 Template:
 
