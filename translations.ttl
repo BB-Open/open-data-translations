@@ -1,0 +1,41 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://purl.org/dc/terms/description> skos:prefLabel "Beschreibung"@de, "Description"@en . 
+
+<http://dcat-ap.de/def/politicalGeocoding/Level/international> skos:prefLabel "internationale Ebene"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/Level/european> skos:prefLabel "EU-Ebene"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/Level/federal> skos:prefLabel "Bundesebene"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/Level/state> skos:prefLabel "Ebene der Bundesländer"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/Level/administrativeDistrict> skos:prefLabel "Ebene der Landkreise"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/Level/municipality> skos:prefLabel "kommunale Ebene"@de . 
+ 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/01> skos:prefLabel "Schleswig-Holstein"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/02> skos:prefLabel "Hamburg"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/03> skos:prefLabel "Niedersachsen"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/04> skos:prefLabel "Bremen"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/05> skos:prefLabel "Nordrhein-Westfalen"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/06> skos:prefLabel "Hessen"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/07> skos:prefLabel "Rheinland-Pfalz"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/08> skos:prefLabel "Baden-Württemberg"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/09> skos:prefLabel "Bayern"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/10> skos:prefLabel "Saarland"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/11> skos:prefLabel "Berlin"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/12> skos:prefLabel "Brandenburg"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/13> skos:prefLabel "Mecklenburg-Vorpommern"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/14> skos:prefLabel "Sachsen"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/15> skos:prefLabel "Sachsen-Anhalt"@de . 
+<http://dcat-ap.de/def/politicalGeocoding/stateKey/16> skos:prefLabel "Thüringen"@de . 
+ 
+<http://www.w3.org/2000/01/rdf-schema#Class> skos:prefLabel "Klasse"@de . 
+<http://www.w3.org/ns/dcat#Dataset> skos:prefLabel "Datenstruktur"@de .
+<http://www.w3.org/ns/dcat#Catalog> skos:prefLabel "Katalog"@de .
+<http://xmlns.com/foaf/0.1/Agent> skos:prefLabel "Herausgeber"@de .
+
+<http://www.w3.org/ns/dcat#keyword> skos:prefLabel "Schlagwort"@de .
+
+<http://purl.org/dc/terms/description> skos:prefLabel "Beschreibung"@de .
+<http://purl.org/dc/terms/title> skos:prefLabel "Titel"@de .
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> skos:prefLabel "Kategorie"@de .
+<http://www.w3.org/ns/dcat#Distribution> skos:prefLabel "Distribution"@de .
+<http://purl.org/dc/terms/title> skos:prefLabel "Titel"@de .
+<http://xmlns.com/foaf/0.1/homepage> skos:prefLabel "Webseite"@de .
