@@ -1,7 +1,45 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://purl.org/dc/terms/description> skos:prefLabel "Beschreibung"@de, "Description"@en . 
+#  Liste der Lizenzen
+#  https://www.dcat-ap.de/def/licenses/
+#  Version 20190731
+<http://dcat-ap.de/def/licenses/apache> skos:prefLabel "Freie Softwarelizenz der Apache Software Foundation"@de .
+<http://dcat-ap.de/def/licenses/bsd> skos:prefLabel "BSD Lizenz"@de .
+<http://dcat-ap.de/def/licenses/cc-by> skos:prefLabel "Creative Commons Namensnennung (CC-BY)"@de .
+<http://dcat-ap.de/def/licenses/cc-by/4.0> skos:prefLabel "Creative Commons Namensnennung – 4.0 International (CC BY 4.0)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-de/3.0> skos:prefLabel "Creative Commons Namensnennung 3.0 Deutschland (CC BY 3.0 DE)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-nc> skos:prefLabel "Creative Commons Namensnennung - Nicht kommerziell (CC BY-NC)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-nc-de/3.0> skos:prefLabel "Creative Commons Namensnennung-Nicht kommerziell 3.0 Deutschland (CC BY-NC 3.0 DE)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-nc/4.0> skos:prefLabel "Creative Commons Namensnennung - Nicht kommerziell 4.0 International (CC BY-NC 4.0)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-nd> skos:prefLabel "Creative Commons Namensnennung - Keine Bearbeitung (CC BY-ND)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-nd/3.0> skos:prefLabel "Creative Commons Namensnennung -- Keine Bearbeitung 3.0 Unported (CC BY-ND 3.0)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-nd/4.0> skos:prefLabel "Creative Commons Namensnennung - - Keine Bearbeitung 4.0 International (CC BY-ND 4.0)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-sa> skos:prefLabel "Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen (CC-BY-SA)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-sa-de/3.0> skos:prefLabel "Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland (CC BY-SA 3.0 DE)"@de .
+<http://dcat-ap.de/def/licenses/cc-by-sa/4.0> skos:prefLabel "Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (CC-BY-SA 4.0)"@de .
+<http://dcat-ap.de/def/licenses/ccpdm/1.0> skos:prefLabel "Public Domain Mark 1.0 (PDM)"@de .
+<http://dcat-ap.de/def/licenses/cc-zero> skos:prefLabel "Creative Commons CC Zero License (cc-zero)"@de .
+<http://dcat-ap.de/def/licenses/dl-by-de/1.0> skos:prefLabel "Datenlizenz Deutschland Namensnennung 1.0"@de .
+<http://dcat-ap.de/def/licenses/dl-by-de/2.0> skos:prefLabel "Datenlizenz Deutschland Namensnennung 2.0"@de .
+<http://dcat-ap.de/def/licenses/dl-by-nc-de/1.0> skos:prefLabel "Datenlizenz Deutschland Namensnennung nicht-kommerziell 1.0"@de .
+<http://dcat-ap.de/def/licenses/dl-zero-de/2.0> skos:prefLabel "Datenlizenz Deutschland – Zero – Version 2.0"@de .
+<http://dcat-ap.de/def/licenses/geonutz/20130319> skos:prefLabel "Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes"@de .
+<http://dcat-ap.de/def/licenses/geoNutz/20131001> skos:prefLabel "Nutzungsbestimmungen für die Bereitstellung von Geodaten des Landes Berlin"@de .
+<http://dcat-ap.de/def/licenses/gfdl> skos:prefLabel "GNU Free Documentation License (GFDL)"@de .
+<http://dcat-ap.de/def/licenses/gpl/3.0> skos:prefLabel "GNU General Public License version 3.0 (GPLv3)"@de .
+<http://dcat-ap.de/def/licenses/mozilla> skos:prefLabel "Mozilla Public License 2.0 (MPL)"@de .
+<http://dcat-ap.de/def/licenses/odbl> skos:prefLabel "Open Data Commons Open Database License (ODbL)"@de .
+<http://dcat-ap.de/def/licenses/odby> skos:prefLabel "Open Data Commons Attribution License (ODC-BY 1.0)"@de .
+<http://dcat-ap.de/def/licenses/odcpddl> skos:prefLabel "Open Data Commons Public Domain Dedication and Licence (ODC PDDL)"@de .
+<http://dcat-ap.de/def/licenses/officialWork> skos:prefLabel "Amtliches Werk, lizenzfrei nach §5 Abs. 1 UrhG"@de .
+<http://dcat-ap.de/def/licenses/other-closed> skos:prefLabel "Andere geschlossene Lizenz"@de .
+<http://dcat-ap.de/def/licenses/other-commercial> skos:prefLabel "Andere kommerzielle Lizenz"@de .
+<http://dcat-ap.de/def/licenses/other-freeware> skos:prefLabel "Andere Freeware Lizenz"@de .
+<http://dcat-ap.de/def/licenses/other-open> skos:prefLabel "Andere offene Lizenz"@de .
+<http://dcat-ap.de/def/licenses/other-opensource> skos:prefLabel "Andere Open Source Lizenz"@de .
 
+#  Liste der geopolitischen Verwaltungscodierung
+#  https://www.dcat-ap.de/def/politicalGeocoding/Level/
 <http://dcat-ap.de/def/politicalGeocoding/Level/international> skos:prefLabel "internationale Ebene"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/Level/european> skos:prefLabel "EU-Ebene"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/Level/federal> skos:prefLabel "Bundesebene"@de . 
@@ -9,6 +47,9 @@
 <http://dcat-ap.de/def/politicalGeocoding/Level/administrativeDistrict> skos:prefLabel "Ebene der Landkreise"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/Level/municipality> skos:prefLabel "kommunale Ebene"@de . 
  
+#  Bundesland
+#  https://www.dcat-ap.de/def/politicalGeocoding/stateKey/
+#  Version 20100401
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/01> skos:prefLabel "Schleswig-Holstein"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/02> skos:prefLabel "Hamburg"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/03> skos:prefLabel "Niedersachsen"@de . 
@@ -26,6 +67,8 @@
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/15> skos:prefLabel "Sachsen-Anhalt"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/16> skos:prefLabel "Thüringen"@de . 
  
+
+<http://purl.org/dc/terms/description> skos:prefLabel "Beschreibung"@de, "Description"@en . 
 <http://www.w3.org/2000/01/rdf-schema#Class> skos:prefLabel "Klasse"@de . 
 <http://www.w3.org/ns/dcat#Dataset> skos:prefLabel "Datenstruktur"@de .
 <http://www.w3.org/ns/dcat#Catalog> skos:prefLabel "Katalog"@de .
