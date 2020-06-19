@@ -1,8 +1,8 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 #  "Liste der Lizenzen"
-#  https://www.dcat-ap.de/def/licenses/
 #  Version 20190731
+#  https://www.dcat-ap.de/def/licenses/
 <http://dcat-ap.de/def/licenses/apache> skos:prefLabel "Freie Softwarelizenz der Apache Software Foundation"@de .
 <http://dcat-ap.de/def/licenses/bsd> skos:prefLabel "BSD Lizenz"@de .
 <http://dcat-ap.de/def/licenses/cc-by> skos:prefLabel "Creative Commons Namensnennung (CC-BY)"@de .
@@ -39,16 +39,16 @@
 <http://dcat-ap.de/def/licenses/other-opensource> skos:prefLabel "Andere Open Source Lizenz"@de .
 
 #  "Liste geplanter Verfügbarkeitsgrade"
-#  https://www.dcat-ap.de/def/plannedAvailability/
 #  Version 1.0
+#  https://www.dcat-ap.de/def/plannedAvailability/
 <http://dcat-ap.de/def/plannedAvailability/temporary> skos:prefLabel "Daten können jederzeit verschwinden."@de .
 <http://dcat-ap.de/def/plannedAvailability/experimental> skos:prefLabel "Daten versuchsweise verfügbar, sind aber noch etwa ein Jahr erreichbar."@de .
 <http://dcat-ap.de/def/plannedAvailability/available> skos:prefLabel "Daten sind für einige Jahre verfügbar, mittelfristige Planung"@de .
 <http://dcat-ap.de/def/plannedAvailability/stable> skos:prefLabel "Daten werden langfristig erhältlich bleiben."@de .
 
 #  "Liste der geopolitischen Verwaltungscodierung"
-#  https://www.dcat-ap.de/def/politicalGeocoding/Level/
 #  Version 1.0
+#  https://www.dcat-ap.de/def/politicalGeocoding/Level/
 <http://dcat-ap.de/def/politicalGeocoding/Level/international> skos:prefLabel "internationale Ebene"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/Level/european> skos:prefLabel "EU-Ebene"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/Level/federal> skos:prefLabel "Bundesebene"@de . 
@@ -57,8 +57,8 @@
 <http://dcat-ap.de/def/politicalGeocoding/Level/municipality> skos:prefLabel "kommunale Ebene"@de . 
  
 #  "Bundesland"
-#  https://www.dcat-ap.de/def/politicalGeocoding/stateKey/
 #  Version 20100401
+#  https://www.dcat-ap.de/def/politicalGeocoding/stateKey/
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/01> skos:prefLabel "Schleswig-Holstein"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/02> skos:prefLabel "Hamburg"@de . 
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/03> skos:prefLabel "Niedersachsen"@de . 
@@ -77,20 +77,33 @@
 <http://dcat-ap.de/def/politicalGeocoding/stateKey/16> skos:prefLabel "Thüringen"@de . 
  
 #  "Spezifikation DCAT-AP.de (PDF)"
-#  https://www.dcat-ap.de/def/dcatde/1.0.2/spec/specification.pdf
 #  Version 1.0.2
-#  Hier nur Auszüge
-<http://purl.org/dc/terms/description> skos:prefLabel "Beschreibung"@de, "Description"@en . 
-<http://www.w3.org/2000/01/rdf-schema#Class> skos:prefLabel "Klasse"@de . 
-<http://www.w3.org/ns/dcat#Dataset> skos:prefLabel "Datenstruktur"@de .
-<http://www.w3.org/ns/dcat#Catalog> skos:prefLabel "Katalog"@de .
-<http://xmlns.com/foaf/0.1/Agent> skos:prefLabel "Herausgeber"@de .
-
-<http://www.w3.org/ns/dcat#keyword> skos:prefLabel "Schlagwort"@de .
-
-<http://purl.org/dc/terms/description> skos:prefLabel "Beschreibung"@de .
-<http://purl.org/dc/terms/title> skos:prefLabel "Titel"@de .
-<http://www.w3.org/2004/02/skos/core#ConceptScheme> skos:prefLabel "Kategorie"@de .
-<http://www.w3.org/ns/dcat#Distribution> skos:prefLabel "Distribution"@de .
-<http://purl.org/dc/terms/title> skos:prefLabel "Titel"@de .
-<http://xmlns.com/foaf/0.1/homepage> skos:prefLabel "Webseite"@de .
+#  https://www.dcat-ap.de/def/dcatde/1.0.2/spec/specification.pdf
+#  Noch unvollständig
+<http://purl.org/dc/terms/description> skos:prefLabel "Description"@en, "Beschreibung"@de . 
+<http://purl.org/dc/terms/Frequency> skos:prefLabel "Frequency"@en, "Aktualisierungsfrequenz"@de .
+<http://purl.org/dc/terms/LicenseDocument> skos:prefLabel "Licence Document"@en, "Lizenzdokument"@de .
+<http://purl.org/dc/terms/LinguisticSystem> skos:prefLabel "Linguistic System"@en, "Linguistisches System"@de .
+<http://purl.org/dc/terms/Location> skos:prefLabel "Location"@en, "Standort"@de .
+<http://purl.org/dc/terms/MediaTypeOrExtent> skos:prefLabel "Media Type or Extent"@en, "Medientyp oder Erweiterung"@de .
+<http://purl.org/dc/terms/PeriodOfTime> skos:prefLabel "Period Of Time"@en, "Zeitraum"@de .
+<http://purl.org/dc/terms/ProvenanceStatement> skos:prefLabel "Provenance"@en, "Provenienz"@de .
+<http://purl.org/dc/terms/RightsStatement> skos:prefLabel "Rights Statement"@en, "Rechtliche Aussage"@de .
+<http://purl.org/dc/terms/Standard> skos:prefLabel "Standard"@en, "Standard"@de .
+<http://purl.org/dc/terms/title> skos:prefLabel "Title"@en, "Titel"@de .
+<http://spdx.org/rdf/terms#Checksum> skos:prefLabel "Checksum"@en, "Prüfsumme"@de .
+<http://www.w3.org/2000/01/rdf-schema#Class> skos:prefLabel "Class"@en, "Klasse"@de . 
+<http://www.w3.org/2000/01/rdf-schema#Literal> skos:prefLabel "Literal"@en, "Literal"@de .
+<http://www.w3.org/2000/01/rdf-schema#Resource> skos:prefLabel "Resource"@en, "Ressource"@de .
+<http://www.w3.org/2004/02/skos/core#Concept> skos:prefLabel "Category"@en, "Kategorie"@de .
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> skos:prefLabel "Category Scheme"@en, "Kategorienschema"@de .
+<http://www.w3.org/2006/vcard/ns#Kind> skos:prefLabel "Kind"@en, "Kontakt"@de .
+<http://www.w3.org/ns/adms#Identifier> skos:prefLabel "Identifier"@en, "Identifier"@de .
+<http://www.w3.org/ns/dcat#Catalog> skos:prefLabel "Catalog"@en, "Katalog"@de .
+<http://www.w3.org/ns/dcat#CatalogRecord> skos:prefLabel "Catalogue Record"@en, "Katalogeintrag"@de .
+<http://www.w3.org/ns/dcat#Dataset> skos:prefLabel "Dataset"@en, "Datenstruktur"@de .
+<http://www.w3.org/ns/dcat#Distribution> skos:prefLabel "Distribution"@en, "Distribution"@de .
+<http://www.w3.org/ns/dcat#keyword> skos:prefLabel "Keyword"@en, "Schlagwort"@de .
+<http://xmlns.com/foaf/0.1/Agent> skos:prefLabel "Agent"@en, "Verantwortliche Stelle"@de .
+<http://xmlns.com/foaf/0.1/document> skos:prefLabel "Document"@en, "Dokument"@de .
+<http://xmlns.com/foaf/0.1/homepage> skos:prefLabel "Homepage"@en, "Webseite"@de .
