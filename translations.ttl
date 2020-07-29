@@ -111,3 +111,4 @@
 #  Von Datenbereitstellenden verwendet
 <http://purl.org/dc/terms/format> skos:prefLabel "File Format"@en, "Dateiformat"@de .
 <http://purl.org/dc/terms/license> skos:prefLabel "License"@en, "Lizenz"@de .
+<http://purl.org/dc/terms/modified> skos:prefLabel "Modified"@en, "Geändert"@de .
