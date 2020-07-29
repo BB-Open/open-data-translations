@@ -107,3 +107,7 @@
 <http://xmlns.com/foaf/0.1/Agent> skos:prefLabel "Agent"@en, "Verantwortliche Stelle"@de .
 <http://xmlns.com/foaf/0.1/document> skos:prefLabel "Document"@en, "Dokument"@de .
 <http://xmlns.com/foaf/0.1/homepage> skos:prefLabel "Homepage"@en, "Webseite"@de .
+
+#  Von Datenbereitstellenden verwendet
+<http://purl.org/dc/terms/format> skos:prefLabel "File Format"@en, "Dateiformat"@de .
+<http://purl.org/dc/terms/license> skos:prefLabel "License"@en, "Lizenz"@de .
